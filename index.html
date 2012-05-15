@@ -1,0 +1,10 @@
+<head>
+	<title> Plinko </title>
+	<script src="processing-1.3.6.js"></script>
+</head>
+<body>
+	<canvas data-processing-sources="plink.pde" id="canvas"></canvas>
+	<script>
+		document.getElementById('canvas').ondragstart = function() { return false; };
+	</script>
+</body>
